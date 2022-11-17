@@ -1,0 +1,79 @@
+:root {
+  --white: #fff;--light: #cad2c5;
+  --base: #84a98c;
+  --primary: #52796f;
+  --secondary: #354f52;
+  --dark: #2f3e46;
+
+  --padding: 1rem;
+}
+
+body {
+  font-family: "Open Sans";
+}
+h1 {
+    margin-bottom: 0;
+}
+
+.container {
+  width: calc(100% - var(--padding) - var(--padding));
+  height: 90vh;
+  padding: 1rem;
+}
+.flex {
+  display: flex;
+}
+.between {
+  justify-content: space-between;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-in {
+  animation: fadeIn 5s;
+}
+.bg-white {
+  background: var(--white);
+}
+.bg-base {
+  background: var(--base);
+}
+.bg-primary {
+  background: var(--primary);
+}
+.bg-secondary {
+  background: var(--secondary);
+}
+.bg-dark {
+  background: var(--dark);
+}
+.dark {
+  color: var(--dark);
+}
+.light {
+  color: var(--light);
+}
+.secondary {
+  color: var(--secondary);
+}
+.base {
+  color: var(--base);
+}
+.primary {
+  color: var(--primary);
+}
+.white {
+    color: var(--white);
+}
+  
