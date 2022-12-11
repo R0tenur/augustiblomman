@@ -5,7 +5,7 @@
   --secondary: #354f52;
   --dark: #2f3e46;
 
-  --padding: 1rem;
+  --padding: 1rem;  
 }
 
 body {
@@ -40,7 +40,7 @@ h1 {
   }
 }
 .fade-in {
-  animation: fadeIn 5s;
+  animation: fadeIn 4s;
 }
 .bg-white {
   background: var(--white);
